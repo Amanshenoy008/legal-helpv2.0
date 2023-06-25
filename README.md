@@ -9,8 +9,6 @@
 <li>NextAuth</li>
 </p>
 
-
-<p>I would recommend view the hosted site as setting the env file would be time consuming. View the website:<p>
 </hr>
 <h1>Setting up the project</h1>
 <p> 1.clone the repo </p>
@@ -18,7 +16,20 @@
 ``` cd LEGAL-HELP    ```
 </p>
 <p> 3. Download dependencies   ``` npm i```</p>
-<p> 4. Since the Legal help uses discord authentication , you would have to generate DISCORD_CLIENT_ID and DISCORD_CLIENT_SECRET from discord developer portal . If steps are unclear watch this <a href='https://www.youtube.com/watch?v=RP0P_zGdvj8'> Video</a>
+<p> 4. Since the Legal help uses discord authentication , as creating client id for discord signin would be time consuming I will include my env here. Do not misuse it</p>
+<p>5. In the .env file paste this 
+===
+
+NEXTAUTH_SECRET="/GKoTyKlaBDaVPFSRgJRdR1YGvuVVg2lPb4N5fNZAjo="
+NEXTAUTH_URL="http://localhost:3000"
+
+# Next Auth Discord Provider
+DISCORD_CLIENT_ID="1122054749378859028"
+DISCORD_CLIENT_SECRET="L80XnnRuzk2RZjcc14cj_5g2JNUtE6DD"
+
+===
+
+</p>
 <p>5. Run ```npm run dev``` </p>
 <p>6. The Application will be running in http://localhost:3000</p>
 
