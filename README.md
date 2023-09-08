@@ -23,14 +23,6 @@
 <p> 4. Since the Legal help uses discord authentication , as creating client id for discord signin would be time consuming I will include my env here. Do not misuse it</p>
 <p>5. In the .env file paste this 
 
-```javascript
- NEXTAUTH_SECRET="/GKoTyKlaBDaVPFSRgJRdR1YGvuVVg2lPb4N5fNZAjo="
-NEXTAUTH_URL="http://localhost:3000"
-
-DISCORD_CLIENT_ID="1122054749378859028"
-DISCORD_CLIENT_SECRET="L80XnnRuzk2RZjcc14cj_5g2JNUtE6DD"
-
-```
 
 </p>
 <p>5. Run 
